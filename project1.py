@@ -1,6 +1,10 @@
-def fib(number_for_fibonacci):
+def fac(n):
 	# Add code here
-	return #Fibonacci number
+	res = 1
+        for i in range(n+1):
+            res *= i
+        print(res)
+            
 
 
 def is_prime(number_to_check):
@@ -13,9 +17,9 @@ def reverse_string(string_to_be_reversed):
     return string_to_be_reversed[::-1]
 	# return reversed_string
 
-#Take input for fib in variable a
+#Take input for fac in variable a
 
-print(fib(a))
+print(fac(a))
 
 
 #Take input for is_prime in variable b
@@ -25,4 +29,4 @@ print(is_prime(b))
 
 #Take input for reverse in variable c
 
-print(reversed_string(c))
+print(reverse_string(c))
